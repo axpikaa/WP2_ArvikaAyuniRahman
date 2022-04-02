@@ -4,6 +4,7 @@
 </head>
 
 <body> 
+	<?php echo validation_errors(); ?>
 	<center>
 		<form action="<?= base_url('Matakuliah/cetak'); ?>"method="post">
 			<table>
@@ -21,14 +22,14 @@
 					<th>Kode Matakuliah</th>
 					<th>:</th>
 					<td>
-						<input type="text" name="kode" id="kode">
+						<input type="text" name="kode" id="kode" placeholder="Input Kode">
 					</td>
 				</tr>
 				<tr>
 					<th>Nama Matakuliah</th>
 					<td>:</td>
 					<td>
-						<input type="text" name="nama" id="nama">
+						<input type="text" name="nama" id="nama" placeholder="Required">
 					</td>
 				</tr>
 				<tr>
