@@ -16,7 +16,7 @@ class Datasiswa extends CI_Controller
 				'min_length'=> 'NIS terlalu pendek'
 		]);
 		$this-> form_validation->set_rules(
-			'nama'
+			'nama',
 			'Nama Siswa',
 			'required|min_length[3]',
 			[

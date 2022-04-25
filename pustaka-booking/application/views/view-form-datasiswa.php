@@ -11,7 +11,7 @@
 	<?php echo validation_errors(); ?>
 	<center>
 		<form action="<?= base_url('Datasiswa/cetak'); ?>"method="post">
-			<table bgcolor="blue" width="200px">
+			<table bgcolor="#D2B48C" width="300px">
 				<tr>
 					<th colspan="3">
 						Form Input Data Siswa
@@ -26,21 +26,21 @@
 					<th>NIS</th>
 					<th>:</th>
 					<td>
-						<input type="text" name="nis" id="nis" placeholder="Input NIS">
+						<input type="text" name="nis" id="nis" placeholder="Input NIS dulu bestiee">
 					</td>
 				</tr>
 				<tr>
 					<th>Nama Siswa</th>
 					<td>:</td>
 					<td>
-						<input type="text" name="nama" id="nama" placeholder="Required">
+						<input type="text" name="nama" id="nama" placeholder="Isi dong bestiee">
 					</td>
 				</tr>
 				<tr>
 					<th>Kelas</th>
 					<td>:</td>
 					<td>
-					 	<input type="text" name="kelas" id="kelas" placeholder="Required">
+					 	<input type="text" name="kelas" id="kelas" placeholder="Isi dong bestiee">
 					</td>
 				</tr>
 				<tr>
@@ -55,21 +55,21 @@
 					<th>Tempat Lahir</th>
 					<td>:</td>
 					<td>
-						<input type="text" name="tl" id="tl" placeholder="Required">
+						<input type="text" name="tl" id="tl" placeholder="Isi dong bestiee">
 					</td>
 				</tr>
 				<tr>
 					<th>Tanggal Lahir</th>
 					<td>:</td>
 					<td>
-						<input type="text" name="tgl" id="tgl" placeholder="Required">
+						<input type="text" name="tgl" id="tgl" placeholder="Isi dong bestiee">
 					</td>
 				</tr>
 				<tr>
 					<th>Alamat</th>
 					<td>:</td>
 					<td>
-						<input type="text" name="alamat" id="alamat" placeholder="Required">
+						<input type="text" name="alamat" id="alamat" placeholder="Isi dong bestiee">
 					</td>
 				</tr>
 				<tr>
