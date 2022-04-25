@@ -20,7 +20,7 @@ class Datasiswa extends CI_Controller
 			'Nama Siswa',
 			'required|min_length[3]',
 			[
-				'required'=>'Nama Siswa Harus diisi', 
+				'required'=>'Nama Siswa Harus diisi dong', 
 				'min_length'=> 'Nama Siswa Terlalu pendek'
 		]);
 		$this-> form_validation->set_rules(
@@ -28,8 +28,32 @@ class Datasiswa extends CI_Controller
 			'Kelas',			
 			'required|min_length[3]',
 			[
-				'required'=>'Kelas Harus diisi', 
+				'required'=>'Kelas Harus diisi dong', 
 				'min_length'=> 'Kelas terlalu pendek'
+		]);
+		$this-> form_validation->set_rules(
+			'tl',
+			'Tempat Lahir',			
+			'required|min_length[3]',
+			[
+				'required'=>'Tempat Lahir Harus diisi dong', 
+				'min_length'=> 'Terlalu pendek'
+		]);
+		$this-> form_validation->set_rules(
+			'tgl',
+			'Tanggal Lahir',			
+			'required|min_length[3]',
+			[
+				'required'=>'Tanggal Lahir Harus diisi dong', 
+				'min_length'=> 'Terlalu pendek'
+		]);
+		$this-> form_validation->set_rules(
+			'alamat',
+			'Alamat',			
+			'required|min_length[3]',
+			[
+				'required'=>'Alamat Harus diisi dong', 
+				'min_length'=> 'Alamat Terlalu pendek'
 		]);
 if ($this-> form_validation->run() != true){
 			$this->load->view('view-form-datasiswa');
